@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="description" content="Ini adalah situs web pribadi saya yang saya gunakan untuk berbagi informasi dan pengalaman saya dengan orang lain.">
+
+	<title>Contoh Situs Web</title>
+
+	<link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+	<header>
+	
+		<h1>Selamat Datang di Situs Web Saya</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Beranda</a></li>
+				<li><a href="#">Tentang</a></li>
+				<li><a href="#">Kontak</a></li>
+				<li><button id="kontak">Kirim Pesan</button></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Tentang Saya</h2>
+			<p>Ini adalah situs web pribadi saya yang saya gunakan untuk berbagi informasi dan pengalaman saya dengan orang lain.</p>
+		</section>
+		<section>
+			<h2>Kontak</h2>
+			<p>Jika Anda memiliki pertanyaan atau ingin menghubungi saya, silakan kirim email ke <a href="mailto:contoh@contoh.com">contoh@contoh.com</a>.</p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Contoh Situs Web</p>
+	</footer>
+
+	<script>
+		function showContactMessage() {
+		  alert("Terima kasih! Pesan Anda telah terkirim.");
+		}
+
+		var button = document.getElementById("kontak");
+		button.addEventListener("click", showContactMessage);
+	</script>
+
+</body>
+</html>
